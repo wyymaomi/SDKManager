@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SDKManager_Example' do
+  pod 'SDKManager', :path => '../'
+
+  target 'SDKManager_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
