@@ -1,0 +1,95 @@
+{
+  "name": "SDKManager",
+  "version": "0.1.1",
+  "summary": "第三方SDK统一管理组件",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wyy/SDKManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wyy": "wyymaomi@163.com"
+  },
+  "source": {
+    "git": "https://github.com/wyy/SDKManager.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "CoreService",
+      "public_header_files": [
+        "SDKManager/CoreService/SDKManager.h",
+        "SDKManager/CoreService/ServiceInterface/*.h"
+      ],
+      "source_files": "SDKManager/CoreService/**/*.{h,m,mm}",
+      "resources": [
+        "SDKManager/CoreService/SDKServiceConfig.plist"
+      ]
+    },
+    {
+      "name": "AlipayPlatform",
+      "public_header_files": [
+        "SDKManager/AlipayPlatform/*.h",
+        "SDKManager/AlipayPlatform/**/*.h"
+      ],
+      "source_files": [
+        "SDKManager/AlipayPlatform/*.{h,m,mm}",
+        "SDKManager/AlipayPlatform/**/*.{h,m,mm}"
+      ],
+      "vendored_frameworks": "SDKManager/AlipayPlatform/AlipaySDK/AlipaySDK.framework",
+      "resources": [
+        "SDKManager/AlipayPlatform/**/*.{bundle}"
+      ],
+      "frameworks": [
+        "CoreMotion",
+        "SystemConfiguration",
+        "CoreTelephony",
+        "QuartzCore",
+        "CoreText",
+        "CoreGraphics",
+        "CFNetwork",
+        "UIKit",
+        "Foundation"
+      ],
+      "libraries": [
+        "z",
+        "c++"
+      ],
+      "dependencies": {
+        "SDKManager/CoreService": [
+
+        ]
+      }
+    },
+    {
+      "name": "WechatPlatform",
+      "public_header_files": [
+        "SDKManager/WechatPlatform/*.h",
+        "SDKManager/WechatPlatform/**/*.h"
+      ],
+      "source_files": "SDKManager/WechatPlatform/**/*.{h,m,mm}",
+      "vendored_libraries": "SDKManager/WechatPlatform/WechatSDK/libWeChatSDK.a",
+      "frameworks": [
+        "SystemConfiguration",
+        "Security",
+        "CoreTelephony",
+        "CFNetwork"
+      ],
+      "libraries": [
+        "z",
+        "sqlite3.0",
+        "c++"
+      ],
+      "dependencies": {
+        "SDKManager/CoreService": [
+
+        ]
+      }
+    }
+  ]
+}

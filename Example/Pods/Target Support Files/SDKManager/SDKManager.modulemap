@@ -1,0 +1,6 @@
+framework module SDKManager {
+  umbrella header "SDKManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SDKManager'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SDKManager.'
+    s.name             = 'SDKManager'
+    s.version          = '0.1.1'
+    s.summary          = '第三方SDK统一管理组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,53 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
+    s.description      = <<-DESC
 TODO: Add long description of the pod here.
-                       DESC
+DESC
 
-  s.homepage         = 'https://github.com/wyy/SDKManager'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wyy' => 'wyymaomi@163.com' }
-  s.source           = { :git => 'https://github.com/wyy/SDKManager.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+    s.homepage         = 'https://github.com/wyy/SDKManager'
+    # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = { 'wyy' => 'wyymaomi@163.com' }
+    s.source           = { :git => 'https://github.com/wyy/SDKManager.git', :tag => s.version.to_s }
+    # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+    s.ios.deployment_target = '8.0'
+    s.requires_arc = true
 
-  s.source_files = 'SDKManager/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SDKManager' => ['SDKManager/Assets/*.png']
-  # }
+    #组件对外提供服务接口
+    s.subspec 'CoreService' do |ss|
+        ss.public_header_files = 'SDKManager/CoreService/SDKManager.h','SDKManager/CoreService/ServiceInterface/*.h'
+        ss.source_files = 'SDKManager/CoreService/**/*.{h,m,mm}'
+        ss.resources = ['SDKManager/CoreService/SDKServiceConfig.plist']
+    end
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    #支付宝平台SDK集成
+    s.subspec 'AlipayPlatform' do |ss|
+        ss.public_header_files = 'SDKManager/AlipayPlatform/*.h','SDKManager/AlipayPlatform/**/*.h'
+        ss.source_files = 'SDKManager/AlipayPlatform/*.{h,m,mm}','SDKManager/AlipayPlatform/**/*.{h,m,mm}'
+        ss.vendored_frameworks = 'SDKManager/AlipayPlatform/AlipaySDK/AlipaySDK.framework'
+        ss.resources = ['SDKManager/AlipayPlatform/**/*.{bundle}']
+        ss.frameworks = 'CoreMotion','SystemConfiguration','CoreTelephony','QuartzCore','CoreText','CoreGraphics','CFNetwork','UIKit','Foundation'
+        ss.libraries = 'z','c++'
+        ss.dependency 'SDKManager/CoreService'
+    end
+
+    #微信平台SDK集成
+    s.subspec 'WechatPlatform' do |ss|
+        ss.public_header_files = 'SDKManager/WechatPlatform/*.h','SDKManager/WechatPlatform/**/*.h'
+        ss.source_files = 'SDKManager/WechatPlatform/**/*.{h,m,mm}'
+        ss.vendored_libraries = 'SDKManager/WechatPlatform/WechatSDK/libWeChatSDK.a'
+        ss.frameworks = 'SystemConfiguration','Security','CoreTelephony','CFNetwork'
+        ss.libraries = 'z','sqlite3.0','c++'
+        ss.dependency 'SDKManager/CoreService'
+    end
+
+    # s.resource_bundles = {
+    #   'SDKManager' => ['SDKManager/Assets/*.png']
+    # }
+
+    # s.public_header_files = 'Pod/Classes/**/*.h'
+    # s.frameworks = 'UIKit', 'MapKit'
+    # s.dependency 'AFNetworking', '~> 2.3'
 end

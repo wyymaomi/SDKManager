@@ -1,0 +1,1167 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0348595923E5A77E9B5A61337DCB1E83 /* SDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B8E5941DAE9E4EA862FCFCE25EB19B /* SDKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		05BEE143502CD957591741D5DA85926A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80C949FEE0DD6EE4A4675EEFD61B612 /* CoreTelephony.framework */; };
+		06E4983843A60E825EEB7502BFC74B49 /* SDKAlipayServiceImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D2EF2C45D0E554C5ED705C40E3C402E /* SDKAlipayServiceImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
+		0AD10D7FE6CF1365A90722CD4499A931 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2D285EBCE608FE88C0F7FDDFD903A6 /* CoreGraphics.framework */; };
+		130F3C9234AD4B680584B7BE4EB49D21 /* Pods-SDKManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F55F4D87C88EB29AF2142954C63C42D /* Pods-SDKManager_Tests-dummy.m */; };
+		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
+		1D248CED8CEFD3ACCF8D1F053E74BC20 /* SDKPayService.h in Headers */ = {isa = PBXBuildFile; fileRef = DD9E3AC17F95F8A014E288BD87953FEC /* SDKPayService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F8585F6EEEF9EB920343D30709E4FA9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C707791E1D912E75689805394E47832 /* QuartzCore.framework */; };
+		2692C87CAD32854D2629A5E23FDABE37 /* SDKManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA68F9BFDB4ECA7774E9589C5D1D0BE /* SDKManager-dummy.m */; };
+		284BD4519D3F0B1C9A4A2B05FFD340E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2330A6877E5E78FC9DD8A1B038E4DB51 /* Foundation.framework */; };
+		2A072EDE43FF01F635ACA3A2B88AF5D6 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AE97A8DBAC88B1148B584D0A6D86F929 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
+		3F1C60C3EA4FCFE936A54F624E9F1CE9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8A1897429D1F16E0FA941F5357A914 /* CFNetwork.framework */; };
+		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		450AEED5EEBF8BC5C6A6FEC4CF71124C /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 911FA583273C6C67DB4EB04A72B628DA /* AlipaySDK.bundle */; };
+		4A9E6F82FB3B8E9AA862F8FD56A83EE1 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 780B6B9E3D1C95BB54D0915D98F1BC49 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
+		51A2A320919477F00D90C49D00E3B06D /* Pods-SDKManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 642B2F0D3FF8900069867023C04D337D /* Pods-SDKManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57EAA1795C2EA12FD7FA9B64C29241AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2330A6877E5E78FC9DD8A1B038E4DB51 /* Foundation.framework */; };
+		60F46438B322756ADAAD8A0A61B71DBE /* Pods-SDKManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC78480212DBB909E15B957DD0FAC2D0 /* Pods-SDKManager_Example-dummy.m */; };
+		60FFAD291145E4559CAF958675B77D69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2330A6877E5E78FC9DD8A1B038E4DB51 /* Foundation.framework */; };
+		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
+		7410DCCFAC5356ACCE80615DCD3C6B1A /* SDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FB256772322677FF96A8B2921BDDD7 /* SDKManager.m */; };
+		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
+		7A531EA63EAEDE2C6F5695427D560910 /* SDKManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6019388E2D6F970E78E56D4A67632057 /* SDKManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E9DEC900E66DF83DDD71F88F482ABC /* XCTest.framework */; };
+		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721E5F4488EF91EEF7179FB1AD2E44CB /* UIKit.framework */; };
+		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2330A6877E5E78FC9DD8A1B038E4DB51 /* Foundation.framework */; };
+		963A0727CD4F381877FCBE6C6EC82AA8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C80E9A9A6B94EE0CD6885E47021A25D4 /* Security.framework */; };
+		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99CAC32EB10EF4F3173105CD36B1D8EA /* SDKServiceConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35054A08E39F2C9939D1B6D682B2B1DD /* SDKServiceConfig.plist */; };
+		9B1DEC305F1247560226BB0114271C49 /* Pods-SDKManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F46A0CCDABE53D1B10302FDBFB8AAC /* Pods-SDKManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F97DADB7A83B9AB672676E63D2A88EB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A11D11DCC4FD49742C08CBBB6FD423 /* SystemConfiguration.framework */; };
+		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
+		A7482EBE1B5909B189744448F2E17110 /* SDKRegisterService.h in Headers */ = {isa = PBXBuildFile; fileRef = D088AE5A2BF753980041E5F0E2E3924B /* SDKRegisterService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C707791E1D912E75689805394E47832 /* QuartzCore.framework */; };
+		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
+		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1149FFFBA889E16D055150C32B4AFC5 /* WXApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CFBCF895D917EAEF945BC809C37496C /* WXApiManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAFA06943FE3FD9FD82E87CB1CD355EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721E5F4488EF91EEF7179FB1AD2E44CB /* UIKit.framework */; };
+		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CEB9AFBFB9363FA15A1D67558E8F14A6 /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 064B9A6D1F09ECB0177AE2C706F9F876 /* WXApiManager.m */; };
+		CF611362C5276E82476A822B3C6CFAA2 /* SDKAlipayServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 408667340679828418E34A52A3E0C0B2 /* SDKAlipayServiceImpl.m */; };
+		D561B02C0082B271B387F5F5D5893196 /* APayAuthInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = EFEB74CD86634D0E8668D3BB44D6A627 /* APayAuthInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5D79386CED51E65A37046F56A1A2883 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C83A035BD53E33E070531F47B76D5CB1 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8338612BBB27CC70EA99372D2BC3E2C /* AlipaySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 33D8447ADA1837819CBE16AE11B1B3B5 /* AlipaySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
+		E61D8D76E1FD296FA037041F74AD756E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE39C23B25A7779988E333F78CB14ADA /* CoreText.framework */; };
+		E96ABBE4A51DD981334BE665D4C60A2A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF97458F42BFCEF76C914B7A4A602E9B /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D0AE32F7FD9FE550056CF518D0617AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		E75A3D6A62141243A2E57C2221B78B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F0753BF1E51B12AAAB4EB60B48B68AB;
+			remoteInfo = SDKManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F2D6C8F01B301AF5F70CABA99DEA52 /* Pods-SDKManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDKManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		01F46A0CCDABE53D1B10302FDBFB8AAC /* Pods-SDKManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDKManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		056FC2CEF64920A7DE4B80D83CBCC4D8 /* Pods-SDKManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDKManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		064B9A6D1F09ECB0177AE2C706F9F876 /* WXApiManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXApiManager.m; path = SDKManager/WechatPlatform/WXApiManager.m; sourceTree = "<group>"; };
+		06DEDA487E84E8397B6341F52AC3F288 /* Pods_SDKManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDKManager_Example.framework; path = "Pods-SDKManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		0C8A1897429D1F16E0FA941F5357A914 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		1177EB04DBE6969E3FCC9572BC24D0F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		1F55F4D87C88EB29AF2142954C63C42D /* Pods-SDKManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDKManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		228DF93389F333E06245312F556D2442 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2330A6877E5E78FC9DD8A1B038E4DB51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		267D3E222983C2BC8B38A1F95389370D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		299426E7E1D48A195854D595A614F9C5 /* Pods-SDKManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDKManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		32E9DEC900E66DF83DDD71F88F482ABC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		33D8447ADA1837819CBE16AE11B1B3B5 /* AlipaySDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlipaySDK.h; sourceTree = "<group>"; };
+		35054A08E39F2C9939D1B6D682B2B1DD /* SDKServiceConfig.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = SDKServiceConfig.plist; path = SDKManager/CoreService/SDKServiceConfig.plist; sourceTree = "<group>"; };
+		363DAAE55237A6E1C0237766D44951E5 /* Pods-SDKManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDKManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		36C99D90A0E26299642EF8AA1CB73BAB /* SDKManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKManager-prefix.pch"; sourceTree = "<group>"; };
+		38EAB5BC3F29923D93A8CD9EB1CCF438 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = SDKManager/AlipayPlatform/AlipaySDK/AlipaySDK.framework; sourceTree = "<group>"; };
+		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		3BA68F9BFDB4ECA7774E9589C5D1D0BE /* SDKManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDKManager-dummy.m"; sourceTree = "<group>"; };
+		3BE00A14CAC812BF06D06A3D97B5BEBE /* Pods-SDKManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDKManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		408667340679828418E34A52A3E0C0B2 /* SDKAlipayServiceImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDKAlipayServiceImpl.m; path = SDKManager/AlipayPlatform/SDKAlipayServiceImpl.m; sourceTree = "<group>"; };
+		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		432D5AEAD5A4F38CED5E439CC469A5D7 /* SDKManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDKManager.framework; path = SDKManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C36C3A4D9A588C3FFCF081AB21AB7A7 /* Pods-SDKManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDKManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CC1796E958B9541FDC9CD7C5A59BE8F /* Pods-SDKManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		54E8DA2E89BE1D54AC16A2B55176B43F /* Pods-SDKManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SDKManager_Example.modulemap"; sourceTree = "<group>"; };
+		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		5C707791E1D912E75689805394E47832 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		5CFBCF895D917EAEF945BC809C37496C /* WXApiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiManager.h; path = SDKManager/WechatPlatform/WXApiManager.h; sourceTree = "<group>"; };
+		6019388E2D6F970E78E56D4A67632057 /* SDKManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKManager-umbrella.h"; sourceTree = "<group>"; };
+		642B2F0D3FF8900069867023C04D337D /* Pods-SDKManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDKManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		64B2E669370A695320E5D2DB3BA8B9F3 /* SDKManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SDKManager.modulemap; sourceTree = "<group>"; };
+		6752D5B32D8D86102D546916982C90BE /* Pods-SDKManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDKManager_Example-resources.sh"; sourceTree = "<group>"; };
+		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		721E5F4488EF91EEF7179FB1AD2E44CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		77A5E7E59EF36A4C50313A393099B6F3 /* Pods-SDKManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SDKManager_Tests.modulemap"; sourceTree = "<group>"; };
+		780B6B9E3D1C95BB54D0915D98F1BC49 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		7C3E34660034AAAB846223205FCF93FA /* Pods-SDKManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDKManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		8564B96F15CF8A68AD2D3F030BC702F8 /* Pods-SDKManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		86B8E5941DAE9E4EA862FCFCE25EB19B /* SDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKManager.h; path = SDKManager/CoreService/SDKManager.h; sourceTree = "<group>"; };
+		911FA583273C6C67DB4EB04A72B628DA /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = SDKManager/AlipayPlatform/AlipaySDK/AlipaySDK.bundle; sourceTree = "<group>"; };
+		930A28116817DC12A3BC9FCDD09B533D /* Pods_SDKManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDKManager_Tests.framework; path = "Pods-SDKManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AEA3A2BD455DFFA03CEA511DE5684CA /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = SDKManager/WechatPlatform/WechatSDK/libWeChatSDK.a; sourceTree = "<group>"; };
+		9D2EF2C45D0E554C5ED705C40E3C402E /* SDKAlipayServiceImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKAlipayServiceImpl.h; path = SDKManager/AlipayPlatform/SDKAlipayServiceImpl.h; sourceTree = "<group>"; };
+		AE39C23B25A7779988E333F78CB14ADA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		AE97A8DBAC88B1148B584D0A6D86F929 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		B4E5DA6378E814D76B2BBC352E6A27CB /* Pods-SDKManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B7A11D11DCC4FD49742C08CBBB6FD423 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		C80E9A9A6B94EE0CD6885E47021A25D4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		C83A035BD53E33E070531F47B76D5CB1 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		CF97458F42BFCEF76C914B7A4A602E9B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		D088AE5A2BF753980041E5F0E2E3924B /* SDKRegisterService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDKRegisterService.h; sourceTree = "<group>"; };
+		D0FB256772322677FF96A8B2921BDDD7 /* SDKManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDKManager.m; path = SDKManager/CoreService/SDKManager.m; sourceTree = "<group>"; };
+		D7981D385A43CF4CBBB8B94B9480CFBC /* SDKManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKManager.xcconfig; sourceTree = "<group>"; };
+		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		DD9E3AC17F95F8A014E288BD87953FEC /* SDKPayService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDKPayService.h; sourceTree = "<group>"; };
+		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		E80C949FEE0DD6EE4A4675EEFD61B612 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		E952A0CEAB1EE9736A76B7FD71CC6375 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFDC2F97B71F27B1872DEA373D94BE0 /* Pods-SDKManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EC78480212DBB909E15B957DD0FAC2D0 /* Pods-SDKManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDKManager_Example-dummy.m"; sourceTree = "<group>"; };
+		EE2D285EBCE608FE88C0F7FDDFD903A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		EFEB74CD86634D0E8668D3BB44D6A627 /* APayAuthInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APayAuthInfo.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */,
+				B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */,
+				841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */,
+				7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FD3A47BDCDD6F33978B4500C444293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284BD4519D3F0B1C9A4A2B05FFD340E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B98CFF8F2FFE8BFA042D1CA622BF21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1C60C3EA4FCFE936A54F624E9F1CE9 /* CFNetwork.framework in Frameworks */,
+				0AD10D7FE6CF1365A90722CD4499A931 /* CoreGraphics.framework in Frameworks */,
+				E96ABBE4A51DD981334BE665D4C60A2A /* CoreMotion.framework in Frameworks */,
+				05BEE143502CD957591741D5DA85926A /* CoreTelephony.framework in Frameworks */,
+				E61D8D76E1FD296FA037041F74AD756E /* CoreText.framework in Frameworks */,
+				57EAA1795C2EA12FD7FA9B64C29241AB /* Foundation.framework in Frameworks */,
+				1F8585F6EEEF9EB920343D30709E4FA9 /* QuartzCore.framework in Frameworks */,
+				963A0727CD4F381877FCBE6C6EC82AA8 /* Security.framework in Frameworks */,
+				9F97DADB7A83B9AB672676E63D2A88EB /* SystemConfiguration.framework in Frameworks */,
+				CAFA06943FE3FD9FD82E87CB1CD355EC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69AC9AB4C993D95A1F02A3EB886EB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FFAD291145E4559CAF958675B77D69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DA7A0FE8E20B9297D011A4E9BF2374F /* SDKManager */ = {
+			isa = PBXGroup;
+			children = (
+				606967477EE0883E0B9EBE7ECE40876D /* AlipayPlatform */,
+				4FB780EB5391AF5B6E41EC486BD8FA6D /* CoreService */,
+				6E3499ABE79C9A686E1DC95DDCE1F041 /* Support Files */,
+				26623BD2D44FCC80253BB4849A9423E1 /* WechatPlatform */,
+			);
+			name = SDKManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */,
+				DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */,
+				52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */,
+				CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */,
+				73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */,
+				6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		16D4DD4FBE2DCBC7EF032F75BD8F32D8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DA7A0FE8E20B9297D011A4E9BF2374F /* SDKManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				F35791481CAFDD8E7715AE1B44687328 /* Core */,
+				1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */,
+				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		26623BD2D44FCC80253BB4849A9423E1 /* WechatPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				5CFBCF895D917EAEF945BC809C37496C /* WXApiManager.h */,
+				064B9A6D1F09ECB0177AE2C706F9F876 /* WXApiManager.m */,
+				C541593A59AFD6C0DC27F43987484815 /* Frameworks */,
+				4EE9DD3B3C2FCD65AEDB9BF05A7BF169 /* WechatSDK */,
+			);
+			name = WechatPlatform;
+			sourceTree = "<group>";
+		};
+		32C3181F06B340680ECF1794861FC11C /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				33D8447ADA1837819CBE16AE11B1B3B5 /* AlipaySDK.h */,
+				EFEB74CD86634D0E8668D3BB44D6A627 /* APayAuthInfo.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		3B5E99168D63B1D11A277F7B73463F2A /* Pods-SDKManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				228DF93389F333E06245312F556D2442 /* Info.plist */,
+				54E8DA2E89BE1D54AC16A2B55176B43F /* Pods-SDKManager_Example.modulemap */,
+				7C3E34660034AAAB846223205FCF93FA /* Pods-SDKManager_Example-acknowledgements.markdown */,
+				00F2D6C8F01B301AF5F70CABA99DEA52 /* Pods-SDKManager_Example-acknowledgements.plist */,
+				EC78480212DBB909E15B957DD0FAC2D0 /* Pods-SDKManager_Example-dummy.m */,
+				3BE00A14CAC812BF06D06A3D97B5BEBE /* Pods-SDKManager_Example-frameworks.sh */,
+				6752D5B32D8D86102D546916982C90BE /* Pods-SDKManager_Example-resources.sh */,
+				01F46A0CCDABE53D1B10302FDBFB8AAC /* Pods-SDKManager_Example-umbrella.h */,
+				EBFDC2F97B71F27B1872DEA373D94BE0 /* Pods-SDKManager_Example.debug.xcconfig */,
+				B4E5DA6378E814D76B2BBC352E6A27CB /* Pods-SDKManager_Example.release.xcconfig */,
+			);
+			name = "Pods-SDKManager_Example";
+			path = "Target Support Files/Pods-SDKManager_Example";
+			sourceTree = "<group>";
+		};
+		3C618FDA18CDAA3A3036753E791582F0 /* Pods-SDKManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				267D3E222983C2BC8B38A1F95389370D /* Info.plist */,
+				77A5E7E59EF36A4C50313A393099B6F3 /* Pods-SDKManager_Tests.modulemap */,
+				4C36C3A4D9A588C3FFCF081AB21AB7A7 /* Pods-SDKManager_Tests-acknowledgements.markdown */,
+				299426E7E1D48A195854D595A614F9C5 /* Pods-SDKManager_Tests-acknowledgements.plist */,
+				1F55F4D87C88EB29AF2142954C63C42D /* Pods-SDKManager_Tests-dummy.m */,
+				363DAAE55237A6E1C0237766D44951E5 /* Pods-SDKManager_Tests-frameworks.sh */,
+				056FC2CEF64920A7DE4B80D83CBCC4D8 /* Pods-SDKManager_Tests-resources.sh */,
+				642B2F0D3FF8900069867023C04D337D /* Pods-SDKManager_Tests-umbrella.h */,
+				4CC1796E958B9541FDC9CD7C5A59BE8F /* Pods-SDKManager_Tests.debug.xcconfig */,
+				8564B96F15CF8A68AD2D3F030BC702F8 /* Pods-SDKManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-SDKManager_Tests";
+			path = "Target Support Files/Pods-SDKManager_Tests";
+			sourceTree = "<group>";
+		};
+		3D8784E637EEB361486E88B0AA5A9C55 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				35054A08E39F2C9939D1B6D682B2B1DD /* SDKServiceConfig.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4EE9DD3B3C2FCD65AEDB9BF05A7BF169 /* WechatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C83A035BD53E33E070531F47B76D5CB1 /* WechatAuthSDK.h */,
+				780B6B9E3D1C95BB54D0915D98F1BC49 /* WXApi.h */,
+				AE97A8DBAC88B1148B584D0A6D86F929 /* WXApiObject.h */,
+			);
+			name = WechatSDK;
+			path = SDKManager/WechatPlatform/WechatSDK;
+			sourceTree = "<group>";
+		};
+		4FB780EB5391AF5B6E41EC486BD8FA6D /* CoreService */ = {
+			isa = PBXGroup;
+			children = (
+				86B8E5941DAE9E4EA862FCFCE25EB19B /* SDKManager.h */,
+				D0FB256772322677FF96A8B2921BDDD7 /* SDKManager.m */,
+				3D8784E637EEB361486E88B0AA5A9C55 /* Resources */,
+				BD941DF8B2F1C8689133286BC5D79BE4 /* ServiceInterface */,
+			);
+			name = CoreService;
+			sourceTree = "<group>";
+		};
+		606967477EE0883E0B9EBE7ECE40876D /* AlipayPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				9D2EF2C45D0E554C5ED705C40E3C402E /* SDKAlipayServiceImpl.h */,
+				408667340679828418E34A52A3E0C0B2 /* SDKAlipayServiceImpl.m */,
+				E519C99C71F337C2D46743DC8723E9DC /* AlipaySDK */,
+				DF4DD12A1B91AAF2813A41423D0DD01E /* Frameworks */,
+				B7ED505BC1E09CB4C727D590AD94576E /* Resources */,
+			);
+			name = AlipayPlatform;
+			sourceTree = "<group>";
+		};
+		6E3499ABE79C9A686E1DC95DDCE1F041 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1177EB04DBE6969E3FCC9572BC24D0F6 /* Info.plist */,
+				64B2E669370A695320E5D2DB3BA8B9F3 /* SDKManager.modulemap */,
+				D7981D385A43CF4CBBB8B94B9480CFBC /* SDKManager.xcconfig */,
+				3BA68F9BFDB4ECA7774E9589C5D1D0BE /* SDKManager-dummy.m */,
+				36C99D90A0E26299642EF8AA1CB73BAB /* SDKManager-prefix.pch */,
+				6019388E2D6F970E78E56D4A67632057 /* SDKManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SDKManager";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				16D4DD4FBE2DCBC7EF032F75BD8F32D8 /* Development Pods */,
+				EB57DDB3388FBC701046A1E93218737F /* Frameworks */,
+				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
+				C301A557B5D1E78F746B217E700B763A /* Products */,
+				E19B7CB375E170D38C90B4EC61735B31 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9445F8FCFC0553B559657761AA30E9D2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0C8A1897429D1F16E0FA941F5357A914 /* CFNetwork.framework */,
+				EE2D285EBCE608FE88C0F7FDDFD903A6 /* CoreGraphics.framework */,
+				CF97458F42BFCEF76C914B7A4A602E9B /* CoreMotion.framework */,
+				E80C949FEE0DD6EE4A4675EEFD61B612 /* CoreTelephony.framework */,
+				AE39C23B25A7779988E333F78CB14ADA /* CoreText.framework */,
+				2330A6877E5E78FC9DD8A1B038E4DB51 /* Foundation.framework */,
+				5C707791E1D912E75689805394E47832 /* QuartzCore.framework */,
+				C80E9A9A6B94EE0CD6885E47021A25D4 /* Security.framework */,
+				B7A11D11DCC4FD49742C08CBBB6FD423 /* SystemConfiguration.framework */,
+				721E5F4488EF91EEF7179FB1AD2E44CB /* UIKit.framework */,
+				32E9DEC900E66DF83DDD71F88F482ABC /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		95726454A9B16C9FE156018B6BC192C0 /* AlipaySDK.framework */ = {
+			isa = PBXGroup;
+			children = (
+				32C3181F06B340680ECF1794861FC11C /* Headers */,
+			);
+			name = AlipaySDK.framework;
+			path = AlipaySDK.framework;
+			sourceTree = "<group>";
+		};
+		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		B7ED505BC1E09CB4C727D590AD94576E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				911FA583273C6C67DB4EB04A72B628DA /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BD941DF8B2F1C8689133286BC5D79BE4 /* ServiceInterface */ = {
+			isa = PBXGroup;
+			children = (
+				DD9E3AC17F95F8A014E288BD87953FEC /* SDKPayService.h */,
+				D088AE5A2BF753980041E5F0E2E3924B /* SDKRegisterService.h */,
+			);
+			name = ServiceInterface;
+			path = SDKManager/CoreService/ServiceInterface;
+			sourceTree = "<group>";
+		};
+		C301A557B5D1E78F746B217E700B763A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E952A0CEAB1EE9736A76B7FD71CC6375 /* FBSnapshotTestCase.framework */,
+				06DEDA487E84E8397B6341F52AC3F288 /* Pods_SDKManager_Example.framework */,
+				930A28116817DC12A3BC9FCDD09B533D /* Pods_SDKManager_Tests.framework */,
+				432D5AEAD5A4F38CED5E439CC469A5D7 /* SDKManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C541593A59AFD6C0DC27F43987484815 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AEA3A2BD455DFFA03CEA511DE5684CA /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF4DD12A1B91AAF2813A41423D0DD01E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38EAB5BC3F29923D93A8CD9EB1CCF438 /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E19B7CB375E170D38C90B4EC61735B31 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B5E99168D63B1D11A277F7B73463F2A /* Pods-SDKManager_Example */,
+				3C618FDA18CDAA3A3036753E791582F0 /* Pods-SDKManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E519C99C71F337C2D46743DC8723E9DC /* AlipaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				95726454A9B16C9FE156018B6BC192C0 /* AlipaySDK.framework */,
+			);
+			name = AlipaySDK;
+			path = SDKManager/AlipayPlatform/AlipaySDK;
+			sourceTree = "<group>";
+		};
+		EB57DDB3388FBC701046A1E93218737F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9445F8FCFC0553B559657761AA30E9D2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
+				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
+				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
+				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
+				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
+				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
+				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
+				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
+				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
+				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
+				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
+				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
+				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
+				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		43F39C6A4779ACBC9A103B64BA42E6A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1DEC305F1247560226BB0114271C49 /* Pods-SDKManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FAB4B274E41AC4BF5673C4D8D88A121 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8338612BBB27CC70EA99372D2BC3E2C /* AlipaySDK.h in Headers */,
+				D561B02C0082B271B387F5F5D5893196 /* APayAuthInfo.h in Headers */,
+				06E4983843A60E825EEB7502BFC74B49 /* SDKAlipayServiceImpl.h in Headers */,
+				7A531EA63EAEDE2C6F5695427D560910 /* SDKManager-umbrella.h in Headers */,
+				0348595923E5A77E9B5A61337DCB1E83 /* SDKManager.h in Headers */,
+				1D248CED8CEFD3ACCF8D1F053E74BC20 /* SDKPayService.h in Headers */,
+				A7482EBE1B5909B189744448F2E17110 /* SDKRegisterService.h in Headers */,
+				D5D79386CED51E65A37046F56A1A2883 /* WechatAuthSDK.h in Headers */,
+				4A9E6F82FB3B8E9AA862F8FD56A83EE1 /* WXApi.h in Headers */,
+				C1149FFFBA889E16D055150C32B4AFC5 /* WXApiManager.h in Headers */,
+				2A072EDE43FF01F635ACA3A2B88AF5D6 /* WXApiObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
+				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
+				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
+				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
+				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
+				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
+				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7778294FA39AD770F38B8AE53C0E5D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A2A320919477F00D90C49D00E3B06D /* Pods-SDKManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */,
+				1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */,
+				9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = E952A0CEAB1EE9736A76B7FD71CC6375 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E0790A363EEC92B981554F68782ABF9 /* Pods-SDKManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0061E139E3370A1F8AFB9AA3EAB558F1 /* Build configuration list for PBXNativeTarget "Pods-SDKManager_Example" */;
+			buildPhases = (
+				E0792C644CE38CF1CAF05C3579EF1B8C /* Sources */,
+				C69AC9AB4C993D95A1F02A3EB886EB68 /* Frameworks */,
+				43F39C6A4779ACBC9A103B64BA42E6A8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D316AF789C3531D5EF5B036F67064C28 /* PBXTargetDependency */,
+			);
+			name = "Pods-SDKManager_Example";
+			productName = "Pods-SDKManager_Example";
+			productReference = 06DEDA487E84E8397B6341F52AC3F288 /* Pods_SDKManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F0753BF1E51B12AAAB4EB60B48B68AB /* SDKManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E89DB91C29E78BC2DD04D6AE820B4DF /* Build configuration list for PBXNativeTarget "SDKManager" */;
+			buildPhases = (
+				71571D3FF78AEA9E623EA1467EC1AA07 /* Sources */,
+				C0B98CFF8F2FFE8BFA042D1CA622BF21 /* Frameworks */,
+				5FAB4B274E41AC4BF5673C4D8D88A121 /* Headers */,
+				03540BEBBAFAB2CA6E570D423F46EC40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDKManager;
+			productName = SDKManager;
+			productReference = 432D5AEAD5A4F38CED5E439CC469A5D7 /* SDKManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7E1C9C0610C33D268A2F1E9E2F9D744 /* Pods-SDKManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79CA9736140D1E14353B0ED3FD29CD6 /* Build configuration list for PBXNativeTarget "Pods-SDKManager_Tests" */;
+			buildPhases = (
+				EFF031B1C9323D63A6A0FE6447EB714C /* Sources */,
+				78FD3A47BDCDD6F33978B4500C444293 /* Frameworks */,
+				E7778294FA39AD770F38B8AE53C0E5D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42C36C4DEDE18BAF73516C628BC2B917 /* PBXTargetDependency */,
+			);
+			name = "Pods-SDKManager_Tests";
+			productName = "Pods-SDKManager_Tests";
+			productReference = 930A28116817DC12A3BC9FCDD09B533D /* Pods_SDKManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C301A557B5D1E78F746B217E700B763A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
+				3E0790A363EEC92B981554F68782ABF9 /* Pods-SDKManager_Example */,
+				F7E1C9C0610C33D268A2F1E9E2F9D744 /* Pods-SDKManager_Tests */,
+				8F0753BF1E51B12AAAB4EB60B48B68AB /* SDKManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03540BEBBAFAB2CA6E570D423F46EC40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450AEED5EEBF8BC5C6A6FEC4CF71124C /* AlipaySDK.bundle in Resources */,
+				99CAC32EB10EF4F3173105CD36B1D8EA /* SDKServiceConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71571D3FF78AEA9E623EA1467EC1AA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF611362C5276E82476A822B3C6CFAA2 /* SDKAlipayServiceImpl.m in Sources */,
+				2692C87CAD32854D2629A5E23FDABE37 /* SDKManager-dummy.m in Sources */,
+				7410DCCFAC5356ACCE80615DCD3C6B1A /* SDKManager.m in Sources */,
+				CEB9AFBFB9363FA15A1D67558E8F14A6 /* WXApiManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0792C644CE38CF1CAF05C3579EF1B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F46438B322756ADAAD8A0A61B71DBE /* Pods-SDKManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
+				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
+				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
+				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
+				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
+				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
+				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
+				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
+				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF031B1C9323D63A6A0FE6447EB714C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130F3C9234AD4B680584B7BE4EB49D21 /* Pods-SDKManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42C36C4DEDE18BAF73516C628BC2B917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
+			targetProxy = 6D0AE32F7FD9FE550056CF518D0617AB /* PBXContainerItemProxy */;
+		};
+		D316AF789C3531D5EF5B036F67064C28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDKManager;
+			target = 8F0753BF1E51B12AAAB4EB60B48B68AB /* SDKManager */;
+			targetProxy = E75A3D6A62141243A2E57C2221B78B10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3BDE76A84992BE9FF499A03EF45DF454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFDC2F97B71F27B1872DEA373D94BE0 /* Pods-SDKManager_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDKManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDKManager_Example/Pods-SDKManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SDKManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43DB470E0F570950F2573EBA03428CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC1796E958B9541FDC9CD7C5A59BE8F /* Pods-SDKManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDKManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDKManager_Tests/Pods-SDKManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SDKManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C61C08DC193166B6ACCC9E1A02CCFAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7981D385A43CF4CBBB8B94B9480CFBC /* SDKManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDKManager/SDKManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDKManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDKManager/SDKManager.modulemap";
+				PRODUCT_NAME = SDKManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9AE04F1DC7CA11121C407F16E5781BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7981D385A43CF4CBBB8B94B9480CFBC /* SDKManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDKManager/SDKManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDKManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDKManager/SDKManager.modulemap";
+				PRODUCT_NAME = SDKManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1E9BBAA1799C09F57E3844C26591936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8564B96F15CF8A68AD2D3F030BC702F8 /* Pods-SDKManager_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDKManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDKManager_Tests/Pods-SDKManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SDKManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2E52370F534DFE0FF7634F754F4F618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CEA992D818C17C13A97E42D0734BF7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1A38F0543C8F455B483B3C0F9ECEB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4E5DA6378E814D76B2BBC352E6A27CB /* Pods-SDKManager_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDKManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDKManager_Example/Pods-SDKManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SDKManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0061E139E3370A1F8AFB9AA3EAB558F1 /* Build configuration list for PBXNativeTarget "Pods-SDKManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BDE76A84992BE9FF499A03EF45DF454 /* Debug */,
+				E1A38F0543C8F455B483B3C0F9ECEB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E89DB91C29E78BC2DD04D6AE820B4DF /* Build configuration list for PBXNativeTarget "SDKManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C61C08DC193166B6ACCC9E1A02CCFAD /* Debug */,
+				9AE04F1DC7CA11121C407F16E5781BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79CA9736140D1E14353B0ED3FD29CD6 /* Build configuration list for PBXNativeTarget "Pods-SDKManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43DB470E0F570950F2573EBA03428CC1 /* Debug */,
+				A1E9BBAA1799C09F57E3844C26591936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA992D818C17C13A97E42D0734BF7D3 /* Debug */,
+				B2E52370F534DFE0FF7634F754F4F618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
